@@ -370,9 +370,8 @@ body {
 .hero__phones { position: relative; height: 440px; margin: 0; }
 .hero__phones img { position: absolute; top: 20px; width: 200px; border: 3px solid var(--line); border-radius: 28px;
   box-shadow: 8px 8px 0 var(--line); background: #000; transition: transform .25s; }
-.hero__phones img:nth-child(1) { left: 4%;  transform: rotate(-9deg); }
-.hero__phones img:nth-child(2) { left: 32%; top: 0; transform: rotate(1deg); z-index: 2; }
-.hero__phones img:nth-child(3) { left: 60%; transform: rotate(9deg); }
+.hero__phones img:nth-child(1) { left: 10%; transform: rotate(-6deg); }
+.hero__phones img:nth-child(2) { left: 48%; top: 0; transform: rotate(6deg); z-index: 2; }
 .hero__phones img:hover { transform: rotate(0) translateY(-10px); z-index: 3; }
 .hero h1 em.k { color: var(--kotlin); }
 .hero h1 em.s { color: var(--swift); }

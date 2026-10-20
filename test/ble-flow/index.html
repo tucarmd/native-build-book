@@ -13,10 +13,8 @@
         <link rel="canonical" href="https://tucarmd.github.io/native-build-book/test/ble-flow/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../permissions/">
       
-      
-        <link rel="next" href="../../plan/README-SWIFT-2W-00-OVERVIEW/">
       
       
         
@@ -27,7 +25,7 @@
     
     
       
-        <title>1 · BLE flow (Scanner) - Native Build Book</title>
+        <title>2 · BLE flow (Scanner) - Native Build Book</title>
       
     
     
@@ -80,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-test--ble-flow-scanner-tab" class="md-skip">
+        <a href="#how-to-test--luồng-ble-tab-scanner" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              1 · BLE flow (Scanner)
+              2 · BLE flow (Scanner)
             
           </span>
         </div>
@@ -297,50 +295,6 @@
     
   
   Test
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../plan/README-SWIFT-2W-00-OVERVIEW/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Swift in 2 weeks
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../../ios-wiki/" class="md-tabs__link">
-          
-  
-  
-    
-  
-  Swift wiki
 
         </a>
       </li>
@@ -1349,6 +1303,8 @@
       
         
       
+        
+      
     
     
     
@@ -1410,6 +1366,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../permissions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1 · Permissions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -1429,7 +1413,7 @@
   <span class="md-ellipsis">
     
   
-    1 · BLE flow (Scanner)
+    2 · BLE flow (Scanner)
   
 
     
@@ -1447,7 +1431,7 @@
   <span class="md-ellipsis">
     
   
-    1 · BLE flow (Scanner)
+    2 · BLE flow (Scanner)
   
 
     
@@ -1473,10 +1457,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-the-flow-at-a-glance" class="md-nav__link">
+  <a href="#1-tóm-tắt-flow" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. The flow at a glance
+        1. Tóm tắt flow
       
     </span>
   </a>
@@ -1484,10 +1468,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-before-you-start" class="md-nav__link">
+  <a href="#2-chuẩn-bị" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Before you start
+        2. Chuẩn bị
       
     </span>
   </a>
@@ -1495,15 +1479,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-how-to-test--step-by-step" class="md-nav__link">
+  <a href="#3-các-bước-test" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. How to test — step by step
+        3. Các bước test
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. How to test — step by step">
+    <nav class="md-nav" aria-label="3. Các bước test">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1518,10 +1502,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#b-discover-automatic" class="md-nav__link">
+  <a href="#b-discover-tự-động" class="md-nav__link">
     <span class="md-ellipsis">
       
-        B. Discover (automatic)
+        B. Discover (tự động)
       
     </span>
   </a>
@@ -1556,10 +1540,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-is-write-extra-do-i-need-write-before-read" class="md-nav__link">
+  <a href="#4-write-có-dư-không-write-để-read-phải-không" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. Is Write extra? Do I need Write before Read?
+        4. Write có dư không? Write để Read phải không?
       
     </span>
   </a>
@@ -1567,10 +1551,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-what-each-write-command-means" class="md-nav__link">
+  <a href="#5-từng-lệnh-write-là-gì" class="md-nav__link">
     <span class="md-ellipsis">
       
-        5. What each Write command means
+        5. Từng lệnh Write là gì
       
     </span>
   </a>
@@ -1580,2351 +1564,6 @@
     </ul>
   
 </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Swift in 2 weeks
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Swift in 2 weeks
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../plan/README-SWIFT-2W-00-OVERVIEW/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Overview
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../plan/README-SWIFT-2W-01-DAY-BY-DAY/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Day by day (101)
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../plan/README-SWIFT-2W-02-APP-SPEC/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    App spec + code map
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../plan/README-SWIFT-2W-03-SETUP-AUTOMATION/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Setup automation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../plan/README-SWIFT-2W-04-CRASH-SAFETY/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Crash safety + lint
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../ios-wiki/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Swift wiki
-  
-
-    
-  </span>
-  
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Swift wiki
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../ios-wiki/week-1-swift-basics/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Week 1 · Swift basics
-  
-
-    
-  </span>
-  
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_2">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Week 1 · Swift basics
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-1-swift-basics/day-1-bat-dau-voi-swift-let-va-var/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 1 · Ngày 1 · Bắt đầu với Swift, let và var
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-1-swift-basics/day-2-kieu-du-lieu-va-chuyen-kieu/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 1 · Ngày 2 · Kiểu dữ liệu và chuyển kiểu
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-1-swift-basics/day-3-string-array-va-dictionary/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 1 · Ngày 3 · String, Array và Dictionary
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-1-swift-basics/day-4-optionals-va-xu-ly-nil/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 1 · Ngày 4 · Optionals và xử lý nil
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-1-swift-basics/day-5-control-flow-functions-va-mini-project/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 1 · Ngày 5 · Control flow, functions và mini project
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../ios-wiki/week-2-models-abstraction/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Week 2 · Models & abstraction
-  
-
-    
-  </span>
-  
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_3">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Week 2 · Models & abstraction
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-2-models-abstraction/day-1-struct-va-vehicle-model/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 2 · Ngày 1 · Struct và Vehicle model
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-2-models-abstraction/day-2-value-semantics-va-class/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 2 · Ngày 2 · Value semantics và Class
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-2-models-abstraction/day-3-enum-va-associated-values/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 2 · Ngày 3 · Enum và associated values
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-2-models-abstraction/day-4-protocol-va-conformance/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 2 · Ngày 4 · Protocol và conformance
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-2-models-abstraction/day-5-repository-va-dependency-injection/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 2 · Ngày 5 · Repository và dependency injection
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../ios-wiki/week-3-memory-errors/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Week 3 · Memory & errors
-  
-
-    
-  </span>
-  
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_4">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Week 3 · Memory & errors
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-3-memory-errors/day-1-arc-va-object-lifecycle/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 3 · Ngày 1 · ARC và object lifecycle
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-3-memory-errors/day-2-retain-cycle-giua-cac-object/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 3 · Ngày 2 · Retain cycle giữa các object
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-3-memory-errors/day-3-weak-unowned-va-closure-capture/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 3 · Ngày 3 · weak, unowned và closure capture
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-3-memory-errors/day-4-throws-throw-try-va-do-catch/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 3 · Ngày 4 · throws, throw, try và do-catch
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-3-memory-errors/day-5-repository-co-validation-va-errors/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 3 · Ngày 5 · Repository có validation và errors
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../ios-wiki/week-4-xcode-fundamentals/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Week 4 · Xcode fundamentals
-  
-
-    
-  </span>
-  
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_5">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Week 4 · Xcode fundamentals
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-4-xcode-fundamentals/day-1-tao-project-va-lam-quen-xcode/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 4 · Ngày 1 · Tạo project và làm quen Xcode
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-4-xcode-fundamentals/day-2-swiftui-app-entry-point-va-lifecycle/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 4 · Ngày 2 · SwiftUI App entry point và lifecycle
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-4-xcode-fundamentals/day-3-project-structure-resources-va-info-plist/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 4 · Ngày 3 · Project structure, resources và Info.plist
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-4-xcode-fundamentals/day-4-build-debugger-va-xu-ly-loi/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 4 · Ngày 4 · Build, debugger và xử lý lỗi
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-4-xcode-fundamentals/day-5-mini-app-va-checkpoint-tuan-4/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 4 · Ngày 5 · Mini app và checkpoint tuần 4
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../ios-wiki/week-5-swiftui-ui/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Week 5 · SwiftUI UI
-  
-
-    
-  </span>
-  
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_6">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Week 5 · SwiftUI UI
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-5-swiftui-ui/day-1-swiftui-mental-model-va-view-composition/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 5 · Ngày 1 · SwiftUI mental model và View composition
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-5-swiftui-ui/day-2-layout-stacks-modifiers-va-responsive-ui/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 5 · Ngày 2 · Layout, stacks, modifiers và responsive UI
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-5-swiftui-ui/day-3-state-binding-va-data-flow/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 5 · Ngày 3 · State, Binding và data flow
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-5-swiftui-ui/day-4-lists-forms-va-validation/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 5 · Ngày 4 · Lists, forms và validation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-5-swiftui-ui/day-5-navigation-sheets-va-ui-states/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 5 · Ngày 5 · Navigation, sheets và UI states
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_7" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../ios-wiki/week-6-data-networking/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Week 6 · Data & networking
-  
-
-    
-  </span>
-  
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_6_7" id="__nav_6_7_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_7">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Week 6 · Data & networking
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-6-data-networking/day-1-model-du-lieu-voi-codable/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 6 · Ngày 1 · Model dữ liệu với Codable
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-6-data-networking/day-2-urlsession-va-rest-api/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 6 · Ngày 2 · URLSession và REST API
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-6-data-networking/day-3-async-await-va-cancellation/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 6 · Ngày 3 · async/await và cancellation
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-6-data-networking/day-4-persistence-userdefaults-files-va-swiftdata/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 6 · Ngày 4 · Persistence: UserDefaults, files và SwiftData
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-6-data-networking/day-5-loading-error-states-va-unit-testing/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 6 · Ngày 5 · Loading/error states và Unit Testing
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../ios-wiki/week-7-architecture-native/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Week 7 · Architecture
-  
-
-    
-  </span>
-  
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_6_8" id="__nav_6_8_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_8">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Week 7 · Architecture
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-7-architecture-native/day-1-mvvm-va-trach-nhiem-tung-layer/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 7 · Ngày 1 · MVVM và trách nhiệm từng layer
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-7-architecture-native/day-2-dependency-injection-va-protocol-boundaries/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 7 · Ngày 2 · Dependency Injection và protocol boundaries
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-7-architecture-native/day-3-actors-mainactor-va-data-races/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 7 · Ngày 3 · Actors, MainActor và data races
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-7-architecture-native/day-4-uikit-interoperability-va-lifecycle/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 7 · Ngày 4 · UIKit interoperability và lifecycle
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-7-architecture-native/day-5-app-lifecycle-permissions-keychain-va-auth/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 7 · Ngày 5 · App lifecycle, permissions, Keychain và auth
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_9" >
-        
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../ios-wiki/week-8-ble-production/" class="md-nav__link ">
-              
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Week 8 · BLE & production
-  
-
-    
-  </span>
-  
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_6_9" id="__nav_6_9_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_9">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Week 8 · BLE & production
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-8-ble-production/day-1-corebluetooth-va-ble-mental-model/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 8 · Ngày 1 · CoreBluetooth và BLE mental model
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-8-ble-production/day-2-ble-connection-state-machine-va-reliability/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 8 · Ngày 2 · BLE connection state machine và reliability
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-8-ble-production/day-3-performance-instruments-va-memory-leaks/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 8 · Ngày 3 · Performance, Instruments và memory leaks
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-8-ble-production/day-4-accessibility-localization-va-privacy-review/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 8 · Ngày 4 · Accessibility, localization và privacy review
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/week-8-ble-production/day-5-ci-cd-signing-testflight-va-capstone/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Tuần 8 · Ngày 5 · CI/CD, signing, TestFlight và capstone
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_10" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_10" id="__nav_6_10_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Appendix
-  
-
-    
-  </span>
-  
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_10_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_10">
-            <span class="md-nav__icon md-icon"></span>
-            
-  
-    Appendix
-  
-
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/appendix/xcode/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Phụ lục · Xcode, chạy trên iPhone thật và Archive từng bước
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/appendix/null-safety/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Phụ lục · Null-safety trong Swift
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/appendix/oop/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Phụ lục · OOP trong Swift: bốn trụ cột, và khi nào không nên dùng
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/appendix/fp/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Phụ lục · Functional Programming trong Swift
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/appendix/generics/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Phụ lục · Generics trong Swift
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../ios-wiki/appendix/extensions/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Phụ lục · Extension (extension function) trong Swift
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -3965,10 +1604,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-the-flow-at-a-glance" class="md-nav__link">
+  <a href="#1-tóm-tắt-flow" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. The flow at a glance
+        1. Tóm tắt flow
       
     </span>
   </a>
@@ -3976,10 +1615,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#2-before-you-start" class="md-nav__link">
+  <a href="#2-chuẩn-bị" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. Before you start
+        2. Chuẩn bị
       
     </span>
   </a>
@@ -3987,15 +1626,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-how-to-test--step-by-step" class="md-nav__link">
+  <a href="#3-các-bước-test" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. How to test — step by step
+        3. Các bước test
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="3. How to test — step by step">
+    <nav class="md-nav" aria-label="3. Các bước test">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -4010,10 +1649,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#b-discover-automatic" class="md-nav__link">
+  <a href="#b-discover-tự-động" class="md-nav__link">
     <span class="md-ellipsis">
       
-        B. Discover (automatic)
+        B. Discover (tự động)
       
     </span>
   </a>
@@ -4048,10 +1687,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#4-is-write-extra-do-i-need-write-before-read" class="md-nav__link">
+  <a href="#4-write-có-dư-không-write-để-read-phải-không" class="md-nav__link">
     <span class="md-ellipsis">
       
-        4. Is Write extra? Do I need Write before Read?
+        4. Write có dư không? Write để Read phải không?
       
     </span>
   </a>
@@ -4059,10 +1698,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-what-each-write-command-means" class="md-nav__link">
+  <a href="#5-từng-lệnh-write-là-gì" class="md-nav__link">
     <span class="md-ellipsis">
       
-        5. What each Write command means
+        5. Từng lệnh Write là gì
       
     </span>
   </a>
@@ -4092,155 +1731,155 @@
   
 
 
-<p><a href="../">← Test</a> · <a href="../../README-BLE-FLOW/">BLE flow, file by file</a> · <a href="../../peripheral-setup/">Test peripheral setup</a></p>
-<h1 id="how-to-test--ble-flow-scanner-tab">How to test · BLE flow (Scanner tab)<a class="headerlink" href="#how-to-test--ble-flow-scanner-tab" title="Permanent link">&para;</a></h1>
+<p><a href="../">← Test</a> · <a href="../../README-BLE-FLOW/">BLE flow, từng file</a> · <a href="../../peripheral-setup/">Setup thiết bị test</a></p>
+<h1 id="how-to-test--luồng-ble-tab-scanner">How to test · Luồng BLE (tab Scanner)<a class="headerlink" href="#how-to-test--luồng-ble-tab-scanner" title="Permanent link">&para;</a></h1>
 <blockquote>
-<p>Use this page while holding the phone: each required BLE step, what you see on screen, and whether you tap it or the app does it for you.
-Code behind each step: <a href="../../README-BLE-FLOW/">BLE flow, file by file</a> · <a href="../../README-HOW-TO-IMPLEMENT/">How to implement</a>.</p>
+<p>Cầm điện thoại, làm theo trang này: mỗi bước BLE bắt buộc, trên màn hình hiện gì, bạn tự bấm hay app tự làm.
+Code phía sau từng bước: <a href="../../README-BLE-FLOW/">BLE flow, từng file</a> · <a href="../../README-HOW-TO-IMPLEMENT/">How to implement</a>.</p>
 </blockquote>
-<h2 id="1-the-flow-at-a-glance">1. The flow at a glance<a class="headerlink" href="#1-the-flow-at-a-glance" title="Permanent link">&para;</a></h2>
+<h2 id="1-tóm-tắt-flow">1. Tóm tắt flow<a class="headerlink" href="#1-tóm-tắt-flow" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
-<th>Required step</th>
-<th>In the app</th>
-<th>Who</th>
+<th>Bước yêu cầu</th>
+<th>Trên app</th>
+<th>Ai làm</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Scan</strong></td>
-<td>Tap <strong>Scan Bluetooth</strong>; it stops by itself after 10 s</td>
-<td>You</td>
+<td>Bấm <strong>Scan Bluetooth</strong>, sau 10 s tự dừng</td>
+<td>Bạn</td>
 </tr>
 <tr>
-<td><strong>Select device</strong></td>
-<td>Tap a row in <strong>Discovered Devices</strong></td>
-<td>You</td>
+<td><strong>Chọn thiết bị</strong></td>
+<td>Bấm vào 1 dòng trong <strong>Discovered Devices</strong></td>
+<td>Bạn</td>
 </tr>
 <tr>
 <td><strong>Connect</strong></td>
-<td>Tap <strong>Connect</strong>; status shows <code>Connecting…</code> then <code>Connected to X</code></td>
-<td>You</td>
+<td>Bấm <strong>Connect</strong>, status hiện <code>Connecting…</code> rồi <code>Connected to X</code></td>
+<td>Bạn</td>
 </tr>
 <tr>
 <td><strong>Discover services</strong></td>
-<td>Right after connecting the app runs <code>discoverServices()</code></td>
-<td>Automatic</td>
+<td>Connect xong app tự chạy <code>discoverServices()</code></td>
+<td>Tự động</td>
 </tr>
 <tr>
 <td><strong>Discover characteristics</strong></td>
-<td>Comes with the discover result; the GATT block shows <code>N services · M characteristics</code></td>
-<td>Automatic</td>
+<td>Có luôn trong kết quả discover; block GATT hiện <code>N services · M characteristics</code></td>
+<td>Tự động</td>
 </tr>
 <tr>
-<td><strong>Subscribe to notifications</strong></td>
-<td>Tap <strong>Notify</strong> on the row marked ★ target (the app writes CCCD <code>2902</code>)</td>
-<td>You</td>
+<td><strong>Subscribe notification</strong></td>
+<td>Bấm <strong>Notify</strong> trên dòng có ★ target (app ghi CCCD <code>2902</code>)</td>
+<td>Bạn</td>
 </tr>
 <tr>
-<td><strong>Receive data</strong></td>
-<td><code>NOTIFY …</code> lines appear in <strong>Received Data</strong></td>
-<td>Shows up by itself</td>
+<td><strong>Nhận data</strong></td>
+<td>Có dòng <code>NOTIFY …</code> trong <strong>Received Data</strong></td>
+<td>Tự hiện</td>
 </tr>
 <tr>
 <td><strong>Read data</strong></td>
-<td>Tap <strong>Read</strong>; a <code>Last read</code> block with <code>raw:</code> + <code>value:</code> appears</td>
-<td>You</td>
+<td>Bấm <strong>Read</strong>, có block <code>Last read</code> với <code>raw:</code> + <code>value:</code></td>
+<td>Bạn</td>
 </tr>
 <tr>
 <td><strong>Disconnect</strong></td>
-<td>Tap <strong>Disconnect</strong>: the app turns notify off, drops the link, clears the GATT block</td>
-<td>You</td>
+<td>Bấm <strong>Disconnect</strong>: app tắt notify, ngắt kết nối, xoá block GATT</td>
+<td>Bạn</td>
 </tr>
 <tr>
-<td><em>(extra)</em> <strong>MTU</strong></td>
-<td>After discover the app requests MTU 247 (Android only)</td>
-<td>Automatic</td>
+<td><em>(thêm)</em> <strong>MTU</strong></td>
+<td>Discover xong app tự xin MTU 247 (chỉ Android)</td>
+<td>Tự động</td>
 </tr>
 <tr>
-<td><em>(extra)</em> <strong>Write</strong></td>
-<td>Type a command (or tap a preset), tap <strong>Send</strong></td>
-<td>You</td>
+<td><em>(thêm)</em> <strong>Write</strong></td>
+<td>Gõ lệnh (hoặc bấm lệnh có sẵn), bấm <strong>Send</strong></td>
+<td>Bạn</td>
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Scan ─▶ Select ─▶ Connect ─▶ Discover services + characteristics ─▶ (MTU 247, Android)
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>                                         │
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>                                         ├─▶ Notify (CCCD 2902) ─▶ Received Data
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>                                         ├─▶ Read  ─▶ Last read
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>                                         └─▶ Write ─▶ (answer comes back via Notify)
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>                                                                         │
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>                                                                    Disconnect
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Scan ─▶ Chọn ─▶ Connect ─▶ Discover services + characteristics ─▶ (MTU 247, Android)
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>                                        │
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>                                        ├─▶ Notify (CCCD 2902) ─▶ Received Data
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>                                        ├─▶ Read  ─▶ Last read
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>                                        └─▶ Write ─▶ (câu trả lời về qua Notify)
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>                                                                        │
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>                                                                   Disconnect
 </code></pre></div>
-<h2 id="2-before-you-start">2. Before you start<a class="headerlink" href="#2-before-you-start" title="Permanent link">&para;</a></h2>
+<h2 id="2-chuẩn-bị">2. Chuẩn bị<a class="headerlink" href="#2-chuẩn-bị" title="Permanent link">&para;</a></h2>
 <ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> <strong>Permissions</strong> tab: BLE Scan + BLE Connect granted.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Bluetooth is on. The Scanner tab shows <code>Ready to scan: YES</code> (not the <em>Not ready</em> card).</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> A peripheral is advertising nearby. Pick one:<ul>
-<li><strong>Test device</strong>: Android phone B + nRF Connect with a Battery Service <code>180F</code> / <code>2A19</code> (READ + NOTIFY). Setup: <a href="../../peripheral-setup/">Test peripheral setup</a>.</li>
-<li><strong>CarMD dongle</strong> (ELM327, UART <code>FFE1</code>): powered (plugged into a car or an OBD power cable).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Tab <strong>Permissions</strong>: đã cấp BLE Scan + BLE Connect (xem <a href="../permissions/">How to test · Permissions</a>).</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Bluetooth đang bật. Tab Scanner hiện <code>Ready to scan: YES</code>, không phải card <em>Not ready</em>.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Có 1 thiết bị đang phát sóng ở gần. Chọn 1 trong 2:<ul>
+<li><strong>Thiết bị test</strong>: điện thoại Android B chạy nRF Connect, có Battery Service <code>180F</code> / <code>2A19</code> (READ + NOTIFY). Cách setup: <a href="../../peripheral-setup/">Setup thiết bị test</a>.</li>
+<li><strong>Dongle CarMD</strong> (ELM327, cổng UART <code>FFE1</code>): đã có điện (cắm vào xe hoặc cáp nguồn OBD).</li>
 </ul>
 </li>
 </ul>
-<h2 id="3-how-to-test--step-by-step">3. How to test — step by step<a class="headerlink" href="#3-how-to-test--step-by-step" title="Permanent link">&para;</a></h2>
-<p>Tick each line on the phone. <strong>Expected</strong> is what must appear; if it doesn't, the step fails.</p>
+<h2 id="3-các-bước-test">3. Các bước test<a class="headerlink" href="#3-các-bước-test" title="Permanent link">&para;</a></h2>
+<p>Mỗi dòng: <strong>Làm</strong> gì và <strong>Phải thấy</strong> gì. Không thấy đúng như cột <em>Phải thấy</em> = bước đó <strong>fail</strong>.</p>
 <h3 id="a-scan--connect">A. Scan &amp; connect<a class="headerlink" href="#a-scan--connect" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
 <th>#</th>
-<th>Do</th>
-<th>Expected</th>
+<th>Làm</th>
+<th>Phải thấy</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td>Open the <strong>Scanner</strong> tab, tap <strong>Scan Bluetooth</strong></td>
-<td>Button becomes <strong>Stop scan</strong>; status <code>Scanning… N found</code>; rows appear in <strong>Discovered Devices</strong> with name + <code>-xx dBm</code></td>
+<td>Mở tab <strong>Scanner</strong>, bấm <strong>Scan Bluetooth</strong></td>
+<td>Nút đổi thành <strong>Stop scan</strong>; status <code>Scanning… N found</code>; các dòng hiện trong <strong>Discovered Devices</strong> kèm tên + <code>-xx dBm</code></td>
 </tr>
 <tr>
 <td>2</td>
-<td>Wait 10 s without touching</td>
-<td>Scan stops by itself, button is <strong>Scan Bluetooth</strong> again</td>
+<td>Đợi 10 s, không bấm gì</td>
+<td>Scan tự dừng, nút trở lại <strong>Scan Bluetooth</strong></td>
 </tr>
 <tr>
 <td>3</td>
-<td>(Optional) toggle <strong>CarMD tools only</strong> / type in <strong>Device Name</strong></td>
-<td>List is filtered (<code>3 of 7</code>); toggle off → <code>Showing every BLE device</code></td>
+<td>(Tuỳ chọn) bật <strong>CarMD tools only</strong> / gõ vào <strong>Device Name</strong></td>
+<td>Danh sách được lọc (<code>3 of 7</code>); tắt lọc → <code>Showing every BLE device</code></td>
 </tr>
 <tr>
 <td>4</td>
-<td>Tap your device's row</td>
-<td>Row is selected, <strong>Connect</strong> is enabled</td>
+<td>Bấm vào dòng thiết bị của bạn</td>
+<td>Dòng được chọn, nút <strong>Connect</strong> bấm được</td>
 </tr>
 <tr>
 <td>5</td>
-<td>Tap <strong>Connect</strong></td>
-<td><code>Status: Connecting…</code> → <code>Status: Connected to &lt;name&gt;</code>; row shows <code>CONNECTED</code></td>
+<td>Bấm <strong>Connect</strong></td>
+<td><code>Status: Connecting…</code> → <code>Status: Connected to &lt;tên&gt;</code>; dòng đó có nhãn <code>CONNECTED</code></td>
 </tr>
 </tbody>
 </table>
-<h3 id="b-discover-automatic">B. Discover (automatic)<a class="headerlink" href="#b-discover-automatic" title="Permanent link">&para;</a></h3>
+<h3 id="b-discover-tự-động">B. Discover (tự động)<a class="headerlink" href="#b-discover-tự-động" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
 <th>#</th>
-<th>Do</th>
-<th>Expected</th>
+<th>Làm</th>
+<th>Phải thấy</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>6</td>
-<td>Nothing — just watch the <strong>GATT</strong> block</td>
-<td><code>Discovering services…</code> → <code>N services · M characteristics</code>; lines <code>Read target:</code>, <code>Notify target:</code>, <code>Write target:</code> are filled; one row shows <strong>★ target</strong></td>
+<td>Không bấm gì, chỉ nhìn block <strong>GATT</strong></td>
+<td><code>Discovering services…</code> → <code>N services · M characteristics</code>; các dòng <code>Read target:</code>, <code>Notify target:</code>, <code>Write target:</code> có giá trị; 1 dòng có <strong>★ target</strong></td>
 </tr>
 <tr>
 <td>7</td>
-<td>Android only</td>
-<td><code>MTU 247 · max 244 bytes per packet</code> (iOS: no MTU line needed)</td>
+<td>Chỉ Android</td>
+<td><code>MTU 247 · max 244 bytes per packet</code> (iOS không có dòng MTU)</td>
 </tr>
 </tbody>
 </table>
@@ -4249,45 +1888,45 @@ Code behind each step: <a href="../../README-BLE-FLOW/">BLE flow, file by file</
 <thead>
 <tr>
 <th>#</th>
-<th>Do</th>
-<th>Expected</th>
+<th>Làm</th>
+<th>Phải thấy</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>8</td>
-<td>Tap <strong>Notify</strong> on the ★ target row</td>
-<td>Button turns into <strong>Stop</strong></td>
+<td>Bấm <strong>Notify</strong> trên dòng ★ target</td>
+<td>Nút đổi thành <strong>Stop</strong></td>
 </tr>
 <tr>
 <td>9</td>
-<td>Test device: send a value from nRF Connect (phone B)</td>
-<td><code>hh:mm:ss.mmm NOTIFY 2A19  5A → 90 %</code> line in <strong>Received Data</strong>, counter <code>1 / 50</code></td>
+<td>Thiết bị test: gửi 1 giá trị từ nRF Connect (máy B)</td>
+<td>Dòng <code>hh:mm:ss.mmm NOTIFY 2A19  5A → 90 %</code> trong <strong>Received Data</strong>, bộ đếm <code>1 / 50</code></td>
 </tr>
 <tr>
 <td>10</td>
-<td>Tap <strong>Read</strong></td>
-<td><code>Last read: 2A19 …</code> with <code>raw: 64</code> and <code>value: 100 %</code> (whatever B holds)</td>
+<td>Bấm <strong>Read</strong></td>
+<td><code>Last read: 2A19 …</code> với <code>raw: 64</code> và <code>value: 100 %</code> (tuỳ giá trị máy B đang giữ)</td>
 </tr>
 <tr>
 <td>11</td>
-<td>CarMD dongle: tap preset <code>ATZ\r</code>, then <strong>Send</strong></td>
-<td>Preview <code>→ 41 54 5A 0D (4 bytes)</code>; a few hundred ms later <code>NOTIFY FFE1 … → "ELM327 v1.5"</code></td>
+<td>Dongle CarMD: bấm lệnh có sẵn <code>ATZ\r</code>, rồi <strong>Send</strong></td>
+<td>Dòng xem trước <code>→ 41 54 5A 0D (4 bytes)</code>; vài trăm ms sau có <code>NOTIFY FFE1 … → "ELM327 v1.5"</code></td>
 </tr>
 <tr>
 <td>12</td>
-<td>Repeat with <code>ATI\r</code>, then <code>010C\r</code> (in a car, engine on)</td>
-<td><code>ATI</code> → version text; <code>010C</code> → <code>41 0C ..</code> reply (RPM) — see §5</td>
+<td>Làm lại với <code>ATI\r</code>, rồi <code>010C\r</code> (cắm xe, nổ máy)</td>
+<td><code>ATI</code> → chuỗi version; <code>010C</code> → trả về <code>41 0C ..</code> (RPM), xem mục 5</td>
 </tr>
 <tr>
 <td>13</td>
-<td>Switch the input to <strong>Hex</strong>, type <code>41 5</code></td>
-<td>Text turns <strong>red</strong>, <strong>Send</strong> is dimmed (invalid hex is blocked)</td>
+<td>Đổi ô nhập sang <strong>Hex</strong>, gõ <code>41 5</code></td>
+<td>Chữ đổi <strong>đỏ</strong>, nút <strong>Send</strong> mờ (hex sai bị chặn)</td>
 </tr>
 <tr>
 <td>14</td>
-<td>Tap <strong>Clear</strong></td>
-<td>Received Data is empty again</td>
+<td>Bấm <strong>Clear</strong></td>
+<td>Received Data trống lại</td>
 </tr>
 </tbody>
 </table>
@@ -4296,101 +1935,101 @@ Code behind each step: <a href="../../README-BLE-FLOW/">BLE flow, file by file</
 <thead>
 <tr>
 <th>#</th>
-<th>Do</th>
-<th>Expected</th>
+<th>Làm</th>
+<th>Phải thấy</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>15</td>
-<td>Tap <strong>Disconnect</strong></td>
-<td><code>Disconnecting…</code> → <code>Status: Disconnected</code>; GATT block back to <code>Connect a device to list…</code></td>
+<td>Bấm <strong>Disconnect</strong></td>
+<td><code>Disconnecting…</code> → <code>Status: Disconnected</code>; block GATT về lại <code>Connect a device to list…</code></td>
 </tr>
 <tr>
 <td>16</td>
-<td>Turn off phone B / unplug the dongle while connected</td>
-<td>Status goes to <code>Disconnected</code> by itself, no crash</td>
+<td>Đang kết nối thì tắt máy B / rút dongle</td>
+<td>Status tự về <code>Disconnected</code>, app không crash</td>
 </tr>
 </tbody>
 </table>
-<h2 id="4-is-write-extra-do-i-need-write-before-read">4. Is Write extra? Do I need Write before Read?<a class="headerlink" href="#4-is-write-extra-do-i-need-write-before-read" title="Permanent link">&para;</a></h2>
-<p><strong>No.</strong> Read and Write are independent:</p>
+<h2 id="4-write-có-dư-không-write-để-read-phải-không">4. Write có dư không? Write để Read phải không?<a class="headerlink" href="#4-write-có-dư-không-write-để-read-phải-không" title="Permanent link">&para;</a></h2>
+<p><strong>Không phải.</strong> Read và Write độc lập với nhau:</p>
 <ul>
-<li><strong>Read</strong>: the app asks the peripheral for a value it already holds. Example: battery level <code>2A19</code> returns <code>64</code> = 100 %. Read does <strong>not</strong> need a Write first.</li>
-<li><strong>Write</strong>: the app sends a command down. The answer comes back <strong>via Notify</strong>, not via Read.</li>
+<li><strong>Read</strong>: app tự hỏi peripheral một giá trị có sẵn. Ví dụ pin <code>2A19</code> trả về <code>64</code> = 100 %. Read <strong>không cần</strong> Write trước.</li>
+<li><strong>Write</strong>: app gửi lệnh xuống. Câu trả lời về <strong>qua Notify</strong>, không về qua Read.</li>
 </ul>
 <table>
 <thead>
 <tr>
 <th>Peripheral</th>
-<th>Is Write needed?</th>
+<th>Có cần Write không?</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Ordinary test devices (nRF Connect, ESP32, smartwatch…)</td>
-<td>No. Write is extra compared with the required flow</td>
+<td>Thiết bị test thường (nRF Connect, ESP32, đồng hồ…)</td>
+<td>Không. Write là phần dư so với flow yêu cầu</td>
 </tr>
 <tr>
-<td><strong>CarMD dongle (ELM327, UART port <code>FFE1</code>)</strong></td>
-<td><strong>Yes.</strong> The dongle never sends anything on its own; it only answers commands. Notify on without a Write = <strong>Received Data stays empty forever</strong></td>
+<td><strong>Dongle CarMD (ELM327, cổng UART <code>FFE1</code>)</strong></td>
+<td><strong>Bắt buộc.</strong> Dongle không tự gửi gì, phải nhận lệnh mới trả lời. Bật Notify mà không Write = <strong>Received Data trống mãi</strong></td>
 </tr>
 </tbody>
 </table>
-<p>Order matters with the dongle: turn on the "ears" first, then speak.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Notify FFE1  ─▶  Write "ATZ\r"  (41 54 5A 0D)  ─▶  dongle answers "ELM327 v1.5" via NOTIFY
+<p>Thứ tự quan trọng với dongle: bật "tai" trước, rồi mới "nói".</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Notify FFE1  ─▶  Write "ATZ\r"  (41 54 5A 0D)  ─▶  dongle trả "ELM327 v1.5" qua NOTIFY
 </code></pre></div>
-<h2 id="5-what-each-write-command-means">5. What each Write command means<a class="headerlink" href="#5-what-each-write-command-means" title="Permanent link">&para;</a></h2>
-<p>The dongle understands two kinds of commands:</p>
+<h2 id="5-từng-lệnh-write-là-gì">5. Từng lệnh Write là gì<a class="headerlink" href="#5-từng-lệnh-write-là-gì" title="Permanent link">&para;</a></h2>
+<p>Dongle hiểu 2 loại lệnh:</p>
 <ul>
-<li><strong><code>AT…</code> commands</strong> talk to the <strong>dongle itself</strong> (the ELM327 chip). They work without a car.</li>
-<li><strong>Hex commands like <code>01 0C</code></strong> are <strong>OBD-II requests</strong> the dongle forwards to the <strong>car's ECU</strong>. They need the dongle plugged into a car with ignition on.</li>
+<li><strong>Lệnh <code>AT…</code></strong>: nói chuyện với <strong>chính con dongle</strong> (chip ELM327). Không cần cắm xe vẫn chạy.</li>
+<li><strong>Lệnh hex như <code>01 0C</code></strong>: là <strong>yêu cầu OBD-II</strong>, dongle chuyển tiếp tới <strong>ECU của xe</strong>. Phải cắm dongle vào xe và bật chìa khoá.</li>
 </ul>
 <table>
 <thead>
 <tr>
-<th>Command</th>
-<th>Kind</th>
-<th>What it does</th>
-<th>Typical answer</th>
-<th>Needs a car?</th>
+<th>Lệnh</th>
+<th>Loại</th>
+<th>Làm gì</th>
+<th>Thường trả về</th>
+<th>Cần xe?</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>ATZ\r</code></td>
 <td>AT (dongle)</td>
-<td><strong>Reset</strong> the dongle, like a reboot. It replies with its name/version. Use it first to check the link works</td>
+<td><strong>Reset</strong> dongle, giống khởi động lại. Nó trả về tên/version. Dùng đầu tiên để kiểm tra đường truyền thông chưa</td>
 <td><code>ELM327 v1.5</code></td>
-<td>No</td>
+<td>Không</td>
 </tr>
 <tr>
 <td><code>ATI\r</code></td>
 <td>AT (dongle)</td>
-<td><strong>Identify</strong>: ask the version only, without resetting</td>
+<td><strong>Hỏi version</strong>, không reset</td>
 <td><code>ELM327 v1.5</code></td>
-<td>No</td>
+<td>Không</td>
 </tr>
 <tr>
 <td><code>010C\r</code></td>
 <td>OBD-II</td>
-<td>Mode <code>01</code> = "current data", PID <code>0C</code> = <strong>engine RPM</strong></td>
+<td>Mode <code>01</code> = "dữ liệu hiện tại", PID <code>0C</code> = <strong>vòng tua máy (RPM)</strong></td>
 <td><code>41 0C 1A F8</code> → (0x1AF8) ÷ 4 = <strong>1726 rpm</strong></td>
-<td>Yes</td>
+<td>Có</td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li><code>\r</code> = carriage return (byte <code>0D</code>), the "Enter" key. The dongle waits for it before running the command. <strong>No <code>\r</code> = no answer.</strong></li>
-<li>In <strong>Text</strong> mode you can type <code>\r</code>, <code>\n</code>, <code>\t</code> literally; the app converts them to bytes. The preview line shows the bytes that will be sent.</li>
-<li>In a reply, <code>41</code> = "answer to mode <code>01</code>", then the PID (<code>0C</code>), then the data bytes.</li>
-<li><code>NO DATA</code> or <code>?</code> means the car doesn't support that PID, or the command was mistyped.</li>
+<li><code>\r</code> = carriage return (byte <code>0D</code>), tức phím Enter. Dongle đợi ký tự này rồi mới chạy lệnh. <strong>Thiếu <code>\r</code> = không trả lời.</strong></li>
+<li>Ở chế độ <strong>Text</strong> bạn gõ thẳng <code>\r</code>, <code>\n</code>, <code>\t</code>, app tự đổi sang byte. Dòng xem trước cho thấy đúng các byte sẽ gửi.</li>
+<li>Trong câu trả lời: <code>41</code> = "trả lời cho mode <code>01</code>", tiếp theo là PID (<code>0C</code>), rồi tới các byte dữ liệu.</li>
+<li>Trả về <code>NO DATA</code> hoặc <code>?</code> = xe không hỗ trợ PID đó, hoặc gõ sai lệnh.</li>
 </ul>
 <div class="admonition warning">
-<p class="admonition-title">Don't forget <code>\r</code></p>
-<p>The trailing <code>\r</code> (carriage return, <code>0D</code>) is <strong>required</strong>. Without it the dongle does not answer.</p>
+<p class="admonition-title">Đừng quên <code>\r</code></p>
+<p>Chữ <code>\r</code> (carriage return, <code>0D</code>) ở cuối là <strong>bắt buộc</strong>. Thiếu là dongle không trả lời.</p>
 </div>
-<p>Details (write types, MTU, the queue): <a href="../../README-HOW-TO-IMPLEMENT/">How to implement</a> · <a href="../../tasks/004-write-mtu/">Task 004 · Write + MTU</a>.</p>
+<p>Chi tiết hơn (kiểu write, MTU, hàng đợi): <a href="../../README-HOW-TO-IMPLEMENT/">How to implement</a> · <a href="../../tasks/004-write-mtu/">Task 004 · Write + MTU</a>.</p>
 
 
 
@@ -4430,7 +2069,7 @@ Code behind each step: <a href="../../README-BLE-FLOW/">BLE flow, file by file</
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Test">
+          <a href="../permissions/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 1 · Permissions">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -4440,27 +2079,11 @@ Code behind each step: <a href="../../README-BLE-FLOW/">BLE flow, file by file</
                 Previous
               </span>
               <div class="md-ellipsis">
-                Test
+                1 · Permissions
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../../plan/README-SWIFT-2W-00-OVERVIEW/" class="md-footer__link md-footer__link--next" aria-label="Next: Overview">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Overview
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
