@@ -2,318 +2,350 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://tucarmd.github.io/native-build-book/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/README-BLE-FLOW/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/README-HOW-TO-IMPLEMENT/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/bluetooth-audio-devices/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/peripheral-setup/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/apps/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/apps/native-device-monitor/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/build/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/build/01-setup/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/build/02-project-layout/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/build/03-build-run-ios/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/build/04-build-run-android/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/build/05-swift-vs-kotlin/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/build/06-features/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/build/07-testing/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/build/08-ship-checklist/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/appendix/extensions/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/appendix/fp/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/appendix/generics/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/appendix/null-safety/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/appendix/oop/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/appendix/xcode/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-1-swift-basics/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-1-swift-basics/day-1-bat-dau-voi-swift-let-va-var/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-1-swift-basics/day-2-kieu-du-lieu-va-chuyen-kieu/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-1-swift-basics/day-3-string-array-va-dictionary/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-1-swift-basics/day-4-optionals-va-xu-ly-nil/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-1-swift-basics/day-5-control-flow-functions-va-mini-project/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-2-models-abstraction/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-2-models-abstraction/day-1-struct-va-vehicle-model/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-2-models-abstraction/day-2-value-semantics-va-class/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-2-models-abstraction/day-3-enum-va-associated-values/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-2-models-abstraction/day-4-protocol-va-conformance/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-2-models-abstraction/day-5-repository-va-dependency-injection/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-3-memory-errors/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-3-memory-errors/day-1-arc-va-object-lifecycle/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-3-memory-errors/day-2-retain-cycle-giua-cac-object/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-3-memory-errors/day-3-weak-unowned-va-closure-capture/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-3-memory-errors/day-4-throws-throw-try-va-do-catch/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-3-memory-errors/day-5-repository-co-validation-va-errors/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-4-xcode-fundamentals/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-4-xcode-fundamentals/day-1-tao-project-va-lam-quen-xcode/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-4-xcode-fundamentals/day-2-swiftui-app-entry-point-va-lifecycle/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-4-xcode-fundamentals/day-3-project-structure-resources-va-info-plist/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-4-xcode-fundamentals/day-4-build-debugger-va-xu-ly-loi/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-4-xcode-fundamentals/day-5-mini-app-va-checkpoint-tuan-4/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-5-swiftui-ui/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-5-swiftui-ui/day-1-swiftui-mental-model-va-view-composition/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-5-swiftui-ui/day-2-layout-stacks-modifiers-va-responsive-ui/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-5-swiftui-ui/day-3-state-binding-va-data-flow/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-5-swiftui-ui/day-4-lists-forms-va-validation/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-5-swiftui-ui/day-5-navigation-sheets-va-ui-states/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-6-data-networking/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-6-data-networking/day-1-model-du-lieu-voi-codable/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-6-data-networking/day-2-urlsession-va-rest-api/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-6-data-networking/day-3-async-await-va-cancellation/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-6-data-networking/day-4-persistence-userdefaults-files-va-swiftdata/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-6-data-networking/day-5-loading-error-states-va-unit-testing/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-7-architecture-native/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-7-architecture-native/day-1-mvvm-va-trach-nhiem-tung-layer/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-7-architecture-native/day-2-dependency-injection-va-protocol-boundaries/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-7-architecture-native/day-3-actors-mainactor-va-data-races/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-7-architecture-native/day-4-uikit-interoperability-va-lifecycle/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-7-architecture-native/day-5-app-lifecycle-permissions-keychain-va-auth/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-8-ble-production/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-8-ble-production/day-1-corebluetooth-va-ble-mental-model/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-8-ble-production/day-2-ble-connection-state-machine-va-reliability/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-8-ble-production/day-3-performance-instruments-va-memory-leaks/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-8-ble-production/day-4-accessibility-localization-va-privacy-review/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/ios-wiki/week-8-ble-production/day-5-ci-cd-signing-testflight-va-capstone/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/plan/README-NEXT-PHASES/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://tucarmd.github.io/native-build-book/plan/README-SWIFT-2W-00-OVERVIEW/</loc>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://tucarmd.github.io/native-build-book/plan/README-SWIFT-2W-01-DAY-BY-DAY/</loc>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://tucarmd.github.io/native-build-book/plan/README-SWIFT-2W-02-APP-SPEC/</loc>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://tucarmd.github.io/native-build-book/plan/README-SWIFT-2W-03-SETUP-AUTOMATION/</loc>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://tucarmd.github.io/native-build-book/plan/README-SWIFT-2W-04-CRASH-SAFETY/</loc>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/tasks/001-scanner-row-connect/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/tasks/002-scanner-hide-filters/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/tasks/003-gatt-read-notify/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/tasks/004-write-mtu/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/tasks/005-week3-nativecore-background/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/tasks/006-final-e2e-cleanup/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
     </url>
     <url>
          <loc>https://tucarmd.github.io/native-build-book/tasks/007-api-two-backends/</loc>
-         <lastmod>2026-10-13</lastmod>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://tucarmd.github.io/native-build-book/tasks/007-mini-pomodoro-mvvm/</loc>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://tucarmd.github.io/native-build-book/test/</loc>
+         <lastmod>2026-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://tucarmd.github.io/native-build-book/test/ble-flow/</loc>
+         <lastmod>2026-10-20</lastmod>
     </url>
 </urlset>
